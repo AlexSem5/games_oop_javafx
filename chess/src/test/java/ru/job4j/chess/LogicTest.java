@@ -52,18 +52,4 @@ public class LogicTest {
                 });
         assertThat(exception.getMessage()).isEqualTo("Cell is occupied");
     }
-
-//    @Test
-//    public void whenValidMove()
-//            throws FigureNotFoundException, OccupiedCellException, ImpossibleMoveException {
-//        Logic logic = new Logic();
-//        Cell source = Cell.C8;
-//        Cell dest = Cell.A6;
-//        Figure bishopBlack = new BishopBlack(source);
-//        logic.add(bishopBlack);
-//        logic.move(source, dest);
-//        Cell actual = logic.getFigures()[0].position();
-//        assertThat(actual).isEqualTo(dest);
-//
-//    }
 }
